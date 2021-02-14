@@ -1,0 +1,82 @@
+
+/* MOBILE: */
+@media screen and (min-width: 480px) and (max-width: 700px) {
+    header {
+        height: 75px;
+    }
+    nav#b {
+        height: 150px;
+    }
+    article.blocks {
+        height: 125px;
+    }
+    article.floats {
+        float: left;
+        width: 240px;
+        height: 248px;
+    }
+    footer {
+        clear: both;
+        height: 80px;
+    }
+}
+/* TABLET: */
+@media screen and (min-width: 701px) and (max-width: 959px) {
+    header {
+        height: 100px;
+    }
+    nav#b {
+        float: left;
+        width: 150px;
+        height: 550px;
+    }
+    article.blocks {
+        float: left;
+        height: 200px;
+        width: 275px;
+    }
+    #d {
+        float: right;
+    }
+    article.floats {
+        float: left;
+        width: 275px;
+        height: 175px;
+    }
+    footer {
+        clear: right;
+        height: 150px;
+        width: 700px;
+        float: right;
+    }
+}
+/* DESKTOP: */
+@media screen and (min-width: 960px) {
+    header {
+        height: 100px;
+    }
+    nav#b {
+        float: left;
+        width: 200px;
+        height: 600px;
+    }
+    article.blocks {
+        float: left;
+        height: 200px;
+        width: 380px;
+    }
+    #d {
+        float: right;
+    }
+    article.floats {
+        float: left;
+        width: 190px;
+        height: 250px;
+    }
+    footer {
+        clear: right;
+        height: 150px;
+        width: 760px;
+        float: right;
+    }
+}
